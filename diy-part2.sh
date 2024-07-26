@@ -10,6 +10,10 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+# Modify DISTRIB_REVISION #
+sed -i 's/R24.7.7/20240726/g' package/lean/default-settings/files/zzz-default-settings
+echo '### Modify DISTRIB_REVISION ###'
+
 # Modify default IP Gate #
 sed -i 's/192.168.1.1/172.16.253.254/g' package/base-files/files/bin/config_generate
 echo '### Updates default IP gate ###'
