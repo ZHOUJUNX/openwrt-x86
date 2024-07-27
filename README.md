@@ -5,7 +5,7 @@ A template for building OpenWrt with GitHub Actions
 <tbody>
 <tr>
 <td align="center" width="20%">
-<img height=60px src="https://github.com/ZHOUJUNX/openwrt-x86/blob/main/Plug-in%20screenshot.png?raw=true"> 
+<img height=60px src="https://github.com/ZHOUJUNX/openwrt-x86/blob/main/Plug-in screenshot.png?raw=true"> 
 </td>
 </tbody>
 </table>
