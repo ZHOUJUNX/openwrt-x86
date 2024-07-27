@@ -1,6 +1,6 @@
 # A template for building OpenWrt with GitHub Actions
 
-## ScreenShot
+## Default Config ScreenShot
 <table>
   <tbody>
      <tr>
