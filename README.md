@@ -43,6 +43,7 @@
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
+- [esirplayround](https://github.com/esirplayground/luci-app-poweroff)
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
