@@ -1,4 +1,4 @@
-A template for building OpenWrt with GitHub Actions
+# A template for building OpenWrt with GitHub Actions
 
 ## ScreenShot
 <table>
