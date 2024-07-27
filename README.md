@@ -1,5 +1,15 @@
 A template for building OpenWrt with GitHub Actions
 
+## Screenshot
+<table>
+<tbody>
+<tr>
+<td align="center" width="20%">
+<img height=60px src="https://github.com/ZHOUJUNX/openwrt-x86/blob/main/Plug-in%20screenshot.png?raw=true"> 
+</td>
+</tbody>
+</table>
+
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
