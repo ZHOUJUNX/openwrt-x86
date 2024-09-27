@@ -11,7 +11,7 @@
 #
 
 # Modify DISTRIB_REVISION #
-sed -i 's/R24.9.9/2024.09.09/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R24.9.18/2024.09.18/g' package/lean/default-settings/files/zzz-default-settings
 echo '### Modify DISTRIB_REVISION ###'
 
 # Modify default IP Gate #
