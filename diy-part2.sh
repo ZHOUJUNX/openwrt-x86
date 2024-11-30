@@ -15,13 +15,13 @@ sed -i 's/192.168.1.1/172.16.253.254/g' package/base-files/luci2/bin/config_gene
 echo '### Updates default IP gate ###'
 
 # argon theme plug-in components #
-#rm -rf package/feeds/luci/luci-theme-argon
-#git clone https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon
+rm -rf package/feeds/luci/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon
 #echo '### luci-theme-argon ###'
 
 #echo '### Fixed Theme Argon /*# sourceMappingURL=cascade.css.map */ error ###'
-#sed -i 's|/\*# sourceMappingURL=cascade.css.map \*/||g' package/feeds/luci/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
-#echo '###  ###'
+sed -i 's|/\*# sourceMappingURL=cascade.css.map \*/||g' package/feeds/luci/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
+#echo '### Fixed Theme Argon ###'
 
 # argon config plug-in components #
 # git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
