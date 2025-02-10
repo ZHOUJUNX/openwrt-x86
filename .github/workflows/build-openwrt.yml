@@ -19,7 +19,7 @@ on:
         description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
         required: false
         default: false
-
+        
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
@@ -53,7 +53,6 @@ jobs:
         dotnet: true
         haskell: true
         large-packages: true
-        docker-images: true
         swap-storage: true
         
     - name: Checkout
