@@ -20,8 +20,8 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/l
 echo '# luci-theme-argon #'
 
 # Fixed Theme Argon # ###sourceMappingURL=cascade.css.map */ error ###'
-sed -i 's|/\*# sourceMappingURL=cascade.css.map \*/||g' package/feeds/luci/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
-echo '# Fixed Theme Argon #'
+# sed -i 's|/\*# sourceMappingURL=cascade.css.map \*/||g' package/feeds/luci/luci-theme-argon/htdocs/luci-static/argon/css/cascade.css
+# echo '# Fixed Theme Argon #'
 
 # Argon Theme Config #
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
